@@ -1,0 +1,102 @@
+/*light grey */
+body {
+  background: #fefFFf;
+  /*light grey */
+}
+
+.title {
+  text-align: center;
+}
+
+.box {
+  position: relative;
+  margin: auto;
+  display: block;
+  /*optional background or border*/
+  margin-top: 2%;
+  width: 600px;
+  height: 420px;
+  background: none;
+}
+
+.body {
+  position: absolute;
+  top: 32%;
+  left: 25%;
+  width: 43%;
+  height: 60%;
+  background: linear-gradient(180deg, #2af598 0%, #009efd 100%);
+  border-radius: 50%;
+  /* To make a circle */
+}
+
+.body-copy {
+  position: absolute;
+  top: 43%;
+  left: 18%;
+  width: 66%;
+  height: 63%;
+  background: #fefFFf;
+  border-radius: 50%;
+  /* To make a circle */
+}
+
+.head {
+  position: absolute;
+  top: 8%;
+  left: 55%;
+  width: 23%;
+  height: 30%;
+  background: linear-gradient(180deg, #2af598 0%, #009efd 100%);
+  border-radius: 50%;
+}
+
+.head-copy {
+  position: absolute;
+  top: -12%;
+  left: 21%;
+  width: 73%;
+  height: 70%;
+  background: #fefFFf;
+  border-radius: 50%;
+}
+
+.eye-left {
+  position: absolute;
+  top: 55%;
+  left: 21%;
+  width: 10%;
+  height: 10%;
+  background: #fefFFf;
+  border-radius: 50%;
+}
+
+.eye-right {
+  position: absolute;
+  top: 66%;
+  left: 51%;
+  width: 10%;
+  height: 10%;
+  background: #fefFFf;
+  border-radius: 50%;
+}
+
+.tail {
+  position: absolute;
+  top: 0%;
+  left: 9%;
+  width: 30%;
+  height: 40%;
+  background: linear-gradient(180deg, #2af598 0%, #009efd 100%);
+  border-radius: 50%;
+}
+
+.tail-copy {
+  position: absolute;
+  top: -5%;
+  left: 2%;
+  width: 110%;
+  height: 100%;
+  background: #fefFFf;
+  border-radius: 50%;
+}
